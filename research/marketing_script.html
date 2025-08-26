@@ -1,0 +1,1760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaStack AI Content Playbook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .container {
+            max-width: 1024px;
+            margin: auto;
+            padding: 1.5rem;
+        }
+        .section-header {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #4b5563;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+        .accordion-button {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            color: #1f2937;
+            padding: 1rem;
+            width: 100%;
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .accordion-button:hover {
+            background-color: #f9fafb;
+        }
+        .accordion-content {
+            padding: 1rem;
+            background-color: #f9fafb;
+            border-left: 1px solid #e5e7eb;
+            border-right: 1px solid #e5e7eb;
+            border-bottom: 1px solid #e5e7eb;
+            display: none;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+            max-height: 0;
+        }
+        .script-text {
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+        .social-post-card {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .social-post-card:hover {
+            transform: translateY(-5px);
+        }
+        .image-concept-card {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6 sm:p-10">
+
+<div class="container bg-white rounded-xl shadow-lg">
+
+    <!-- Header -->
+    <header class="text-center py-8 border-b-2 border-gray-200">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800">NovaStack AI</h1>
+        <p class="text-lg sm:text-xl text-gray-500 mt-2">Full Content Playbook</p>
+    </header>
+
+    <!-- Section 1: Monologue Scripts -->
+    <div class="px-4 py-8">
+        <h2 class="section-header">30 Monologue Scripts</h2>
+        <div id="monologue-scripts" class="space-y-4">
+            <!-- Script 1 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 1 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Your website looks pretty, but why is no one visiting it?”
+                        <span class="font-semibold">Problem:</span> “Because pretty design without SEO is invisible.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI auto-optimizes your site for Google and posts to socials.”
+                        <span class="font-semibold">CTA:</span> “Don’t just build a site, build traffic. Try NovaStack AI.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 2 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 2 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Apki dukaan online hai? Ya bas Google par gum ho gayi?”
+                        <span class="font-semibold">Problem:</span> “Aaj kal customer pehle Google karta hai, fir kharidta hai. Agar aapka business dikh hi nahi raha toh sale kaise hoga?”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI banata hai apka website, SEO karta hai, aur social media handle bhi — woh bhi bina agency hire kiye.”
+                        <span class="font-semibold">CTA:</span> “Link pe click karo aur free blog start karo abhi!”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 3 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 3 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Paying $1000 to agencies for SEO?”
+                        <span class="font-semibold">Problem:</span> “That’s your profit margin gone.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI does SEO + blogs + socials for less than $5/month.”
+                        <span class="font-semibold">CTA:</span> “Fire your agency, hire AI.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 4 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 4 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Startup hai, par website abhi tak nahi bani?”
+                        <span class="font-semibold">Problem:</span> “Investors pehli cheez dekhte hain — apki online presence.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI: ek click me landing page + blogs + SEO boost.”
+                        <span class="font-semibold">CTA:</span> “Startup ban raha hai bada? Website bhi banao smart!”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 5 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 5 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Startup pitch deck ready, but website missing?”
+                        <span class="font-semibold">Problem:</span> “Investors Google you first.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI: 1-click landing page + SEO + LinkedIn posts.”
+                        <span class="font-semibold">CTA:</span> “Get funded faster with NovaStack.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 6 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 6 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Client bolta hai: ‘Tumhari khud ki site kaha hai?’”
+                        <span class="font-semibold">Problem:</span> “Aur tumhe lagta hai WordPress aur hosting headache hai.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI deta hai drag-drop builder aur auto SEO. No coding, no tension.”
+                        <span class="font-semibold">CTA:</span> “Apna portfolio live karo, abhi free me try karo.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 7 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 7 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Spending hours writing content no one reads?”
+                        <span class="font-semibold">Problem:</span> “Without SEO + distribution, blogs die.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI makes blogs SEO-rich & shares across socials automatically.”
+                        <span class="font-semibold">CTA:</span> “Write once, distribute everywhere.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 8 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 8 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Chhoti dukaan, bada sapna?”
+                        <span class="font-semibold">Problem:</span> “Customer Google karta hai, Insta dekhta hai — agar aap wahan nahi, toh aap exist hi nahi karte.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI karta hai apke liye free blog aur Insta auto posts.”
+                        <span class="font-semibold">CTA:</span> “Jo dikhte hain, wahi bikte hain — start karo NovaStack ke sath.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 9 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 9 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Are you still copy-pasting posts to 5 social accounts?”
+                        <span class="font-semibold">Problem:</span> “Manual social management = wasted time.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI auto-schedules posts from your site.”
+                        <span class="font-semibold">CTA:</span> “1 click → 5 platforms → done.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 10 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 10 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Agency wale bolte hain: Sir ₹50,000 monthly!”
+                        <span class="font-semibold">Problem:</span> “Aur aap sochte ho ‘yaar mera profit hi utna nahi hai.’”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI karta wahi sab ₹299/month me.”
+                        <span class="font-semibold">CTA:</span> “Agency ko bye-bye bolo, AI ko hi try karo.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 11 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 11 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Your competitor ranks #1 on Google. You’re on page 3.”
+                        <span class="font-semibold">Problem:</span> “Customers never scroll that far.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI SEO agent pushes your site up.”
+                        <span class="font-semibold">CTA:</span> “Get discovered, not ignored.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 12 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 12 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Apko bhi lagta hai content banao par reach nahi milti?”
+                        <span class="font-semibold">Problem:</span> “Blog likho, par SEO aur Insta handle kaun kare?”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI kar deta hai sab automatic.”
+                        <span class="font-semibold">CTA:</span> “Ek button me sab — start free!”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 13 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 13 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Every founder’s nightmare: no online presence.”
+                        <span class="font-semibold">Problem:</span> “Without a site, you don’t exist to clients.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI gives you a website + SEO + socials in minutes.”
+                        <span class="font-semibold">CTA:</span> “Exist online. Grow online.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 14 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 14 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Aapke competitor ka naam Google pe top pe hai, aur aap niche page 3 pe.”
+                        <span class="font-semibold">Problem:</span> “Customer kabhi page 3 tak jata hi nahi.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI SEO agent deta hai — ranking improve automatically.”
+                        <span class="font-semibold">CTA:</span> “Page 1 pe dikho, NovaStack ke sath.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 15 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 15 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Struggling to balance product + marketing?”
+                        <span class="font-semibold">Problem:</span> “Marketing eats your founder hours.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI automates it. You focus on product.”
+                        <span class="font-semibold">CTA:</span> “Delegate to AI. Build faster.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 16 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 16 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Social media handle karna headache lagta hai?”
+                        <span class="font-semibold">Problem:</span> “Har din kaun sochta hai post ka idea?”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI generate karta hai Insta/Facebook/LinkedIn posts from apki website content.”
+                        <span class="font-semibold">CTA:</span> “Social media easy bana lo — NovaStack use karo.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 17 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 17 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Your blog → 10 views. Why?”
+                        <span class="font-semibold">Problem:</span> “No SEO, no shares.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI = SEO + social distribution.”
+                        <span class="font-semibold">CTA:</span> “Turn 10 views into 10,000.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 18 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 18 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Blog likho, par log padhe kaise?”
+                        <span class="font-semibold">Problem:</span> “Without SEO, blog Google pe dikhta hi nahi.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI karta hai auto SEO optimize + share on socials.”
+                        <span class="font-semibold">CTA:</span> “Blog likho, reach pao, abhi start free.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 19 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 19 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Creators, tired of being invisible?”
+                        <span class="font-semibold">Problem:</span> “You post, but algorithm ignores you.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI amplifies blogs across Google + social.”
+                        <span class="font-semibold">CTA:</span> “Be seen. Be heard.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 20 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 20 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Apne business ka website banaoge ya fir neighbour ka beta?”
+                        <span class="font-semibold">Problem:</span> “Coding aati nahi, aur dev hire karna mehenga.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI drag-drop builder + AI SEO + Insta posts.”
+                        <span class="font-semibold">CTA:</span> “Kuch clicks me live site — try NovaStack AI.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 21 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 21 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Agencies charge more for SEO reports than your revenue.”
+                        <span class="font-semibold">Problem:</span> “Unsustainable for SMBs.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI offers automated SEO audits for a coffee price.”
+                        <span class="font-semibold">CTA:</span> “Affordable growth starts here.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 22 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 22 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Chhoti dukaan ka bada marketing plan.”
+                        <span class="font-semibold">Problem:</span> “Posters print karne se zyada log Insta scroll karte hain.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI se social handle karo aur nayi sales lao.”
+                        <span class="font-semibold">CTA:</span> “Digital bano, profitable bano.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 23 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 23 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Your competitor posts daily. You post once a month.”
+                        <span class="font-semibold">Problem:</span> “Consistency gap = lost market.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI auto-generates daily content.”
+                        <span class="font-semibold">CTA:</span> “Stay consistent, stay relevant.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 24 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 24 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Aapka time business chalane me jata hai, marketing me nahi.”
+                        <span class="font-semibold">Problem:</span> “Marketing ke liye banda hire karna costly.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI aapka marketing agent 24x7.”
+                        <span class="font-semibold">CTA:</span> “Business pe focus karo, marketing AI karega.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 25 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 25 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Content creation is easy. Growth is hard.”
+                        <span class="font-semibold">Problem:</span> “Because growth needs SEO + distribution.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI = Growth OS for creators.”
+                        <span class="font-semibold">CTA:</span> “Create. Grow. Repeat.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 26 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 26 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Blog likhne ka mann hai par language barrier hai?”
+                        <span class="font-semibold">Problem:</span> “English SEO me strong, Hindi me kam.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI karta hai multilingual SEO optimize.”
+                        <span class="font-semibold">CTA:</span> “Har language ka blog, har jagah dikhai dega.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 27 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 27 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Is your startup marketing team… just you?”
+                        <span class="font-semibold">Problem:</span> “Solo founders burn out doing everything.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI = your growth team in a box.”
+                        <span class="font-semibold">CTA:</span> “Don’t hire 5 people. Hire AI.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 28 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 28 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Competitor ne kal naya Insta reel dala aur aap soch rahe ho kya banau?”
+                        <span class="font-semibold">Problem:</span> “Consistency missing hai.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI schedule + auto-generate content karta hai.”
+                        <span class="font-semibold">CTA:</span> “Consistency hi king hai — NovaStack se auto ban jao king.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 29 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 29 (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Want to scale globally without a marketing team?”
+                        <span class="font-semibold">Problem:</span> “International growth is expensive.”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI optimizes SEO across languages + posts worldwide.”
+                        <span class="font-semibold">CTA:</span> “Global growth. Local price.”
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 30 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 30 (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Hook:</span> “Apke website ka traffic abhi bhi zero?”
+                        <span class="font-semibold">Problem:</span> “SEO hi nahi kiya!”
+                        <span class="font-semibold">Solution:</span> “NovaStack AI karta hai instant audit aur fixes.”
+                        <span class="font-semibold">CTA:</span> “Traffic badhana easy hai, NovaStack use karo.”
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2: Role-Play Scripts -->
+    <div class="px-4 py-8">
+        <h2 class="section-header">30 Role-Play Scripts</h2>
+        <div id="role-play-scripts" class="space-y-4">
+            <!-- Script 31 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 31 – Friends Chatting (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Two friends at a chai tapri.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Yaar, kal customer bol raha tha ‘Google pe aapka shop hi nahi dikh raha.’”
+                        <span class="font-semibold">Friend B:</span> “Arre same problem! Maine NovaStack AI try kiya, website + SEO ekdum fast ban gaya.”
+                        <span class="font-semibold">Friend A:</span> “Seriously? Kitna kharcha?”
+                        <span class="font-semibold">Friend B:</span> “Bas ₹299/month… agency wale toh ₹50,000 bol rahe the!”
+                        <span class="font-semibold">Text overlay:</span> NovaStack AI = Online growth made simple.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 32 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 32 – Startup Founders (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Two co-founders before an investor pitch.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Founder A:</span> “Pitch deck ready, but we don’t even have a website yet!”
+                        <span class="font-semibold">Founder B:</span> “Investors will Google us and find nothing.”
+                        <span class="font-semibold">Intern:</span> “Sir, NovaStack AI can make landing page + SEO + LinkedIn posts in a day.”
+                        <span class="font-semibold">Both founders:</span> “WHAT? One day?”
+                        <span class="font-semibold">Punchline:</span> NovaStack AI – Investor-ready in 24 hours.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 33 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 33 – Freelancer & Client (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Video call.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Client:</span> “Do you have your portfolio site?”
+                        <span class="font-semibold">Freelancer:</span> “Uh… I was trying with WordPress but it’s a mess.”
+                        <span class="font-semibold">Client (frowns).</span>
+                        <span class="font-semibold">Friend off-screen:</span> “Use NovaStack AI. Instant portfolio + SEO + socials.”
+                        <span class="font-semibold">Client:</span> “Okay, send me tomorrow then.”
+                        <span class="font-semibold">Text overlay:</span> Land clients faster with NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 34 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 34 – Boss & Employee (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Small office.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Boss:</span> “Why are we not on page 1 of Google? Competitor toh hai!”
+                        <span class="font-semibold">Employee:</span> “Sir, agency bolti hai ₹30,000/month SEO fees.”
+                        <span class="font-semibold">Boss:</span> “😡 That’s our profit margin!”
+                        <span class="font-semibold">Employee:</span> “Sir, NovaStack AI karega SEO + socials, sirf ₹299/month.”
+                        <span class="font-semibold">Boss:</span> “Approved!”
+                        <span class="font-semibold">Overlay:</span> NovaStack AI = Growth at 1/100th cost.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 35 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 35 – Instagram Scroller (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Two friends scrolling Insta.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Dekho competitor daily post kar raha hai.”
+                        <span class="font-semibold">Friend B:</span> “Aur hum 2 hafton se kuch post hi nahi kar rahe.”
+                        <span class="font-semibold">Friend A:</span> “Team afford hi nahi kar sakte.”
+                        <span class="font-semibold">Friend B:</span> “NovaStack AI se posts auto generate hote hain.”
+                        <span class="font-semibold">Overlay:</span> Stay consistent. Stay visible.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 36 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 36 – Café Owner & Daughter (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Family café.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Dad:</span> “Beta, café acha hai, par customers kam kyu?”
+                        <span class="font-semibold">Daughter:</span> “Papa, hamare paas website hi nahi hai.”
+                        <span class="font-semibold">Son:</span> “NovaStack AI banata hai site + SEO + Insta posts instantly.”
+                        <span class="font-semibold">Dad:</span> “Chalo, ab hamara café bhi digital banega!”
+                        <span class="font-semibold">Overlay:</span> Every SMB deserves growth.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 37 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 37 – Two Freelancers (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Freelancer A:</span> “I spend hours making content, but no traffic.”
+                        <span class="font-semibold">Freelancer B:</span> “I use NovaStack AI. SEO + auto social posts = more leads.”
+                        <span class="font-semibold">Freelancer A:</span> “So you get work from your blog?”
+                        <span class="font-semibold">Freelancer B:</span> “Exactly. Clients find me on Google.”
+                        <span class="font-semibold">Overlay:</span> Get found. Get paid.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 38 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 38 – Students (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Two students side by side.</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Student A:</span> “Mere assignment ka blog ban gaya, but koi view hi nahi.”
+                        <span class="font-semibold">Student B:</span> “Arre NovaStack AI use kar. SEO + shares automatic.”
+                        <span class="font-semibold">Student A:</span> “Free me?”
+                        <span class="font-semibold">Student B:</span> “Haan, subdomain free, domain chahiye toh ₹299/month.”
+                        <span class="font-semibold">Overlay:</span> Blog smart. Grow smart.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 39 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 39 – Startup Mentor & Founder (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Mentor:</span> “Where’s your traction page?”
+                        <span class="font-semibold">Founder:</span> “We don’t have a site yet.”
+                        <span class="font-semibold">Mentor:</span> “Big mistake. NovaStack AI can give you one today with SEO.”
+                        <span class="font-semibold">Founder:</span> “Investors will see us tomorrow then.”
+                        <span class="font-semibold">Overlay:</span> First impression = online presence.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 40 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 40 – Retailer & Friend (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Retailer:</span> “Bhai, meri shop ke saamne crowd hai, par online zero.”
+                        <span class="font-semibold">Friend:</span> “NovaStack AI banayega site, aur Insta posts bhi karega.”
+                        <span class="font-semibold">Retailer:</span> “Agency kitna leti hai?”
+                        <span class="font-semibold">Friend:</span> “Agency ₹50,000, yeh ₹299.”
+                        <span class="font-semibold">Overlay:</span> Digital dukaan, sasta aur fast.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 41 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 41 – Family Business (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Uncle:</span> “We run this shop 30 years, but sales dropping.”
+                        <span class="font-semibold">Nephew:</span> “Uncle, people search online now.”
+                        <span class="font-semibold">Uncle:</span> “But I can’t do SEO.”
+                        <span class="font-semibold">Nephew:</span> “NovaStack AI handles SEO + social automatically.”
+                        <span class="font-semibold">Overlay:</span> Tradition meets technology.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 42 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 42 – Friends Comparing Agencies (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Agency bolti ₹40,000.”
+                        <span class="font-semibold">Friend B:</span> “😳 For what?!”
+                        <span class="font-semibold">Friend A:</span> “Website + SEO + socials.”
+                        <span class="font-semibold">Friend B:</span> “NovaStack AI same kaam ₹299 me.”
+                        <span class="font-semibold">Overlay:</span> Save money. Grow faster.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 43 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 43 – Boss & Intern (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Boss:</span> “Why is our LinkedIn dead?”
+                        <span class="font-semibold">Intern:</span> “I forgot posting.”
+                        <span class="font-semibold">Boss:</span> “We can’t afford this inconsistency.”
+                        <span class="font-semibold">Intern:</span> “Sir, NovaStack AI posts automatically.”
+                        <span class="font-semibold">Overlay:</span> Never miss a post again.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 44 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 44 – Young Founder Friends (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Founder A:</span> “Yaar, main product banata hoon, marketing ka time hi nahi.”
+                        <span class="font-semibold">Founder B:</span> “Same! But NovaStack AI hai — woh sab handle karta hai.”
+                        <span class="font-semibold">Founder A:</span> “Matlab blog + SEO + Insta sab ek saath?”
+                        <span class="font-semibold">Founder B:</span> “Haan, aur ₹299/month.”
+                        <span class="font-semibold">Overlay:</span> Focus product pe, growth AI pe.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 45 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 45 – Agency Owner & Employee (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Owner:</span> “Our clients are churning.”
+                        <span class="font-semibold">Employee:</span> “They want faster SEO + more posts.”
+                        <span class="font-semibold">Owner:</span> “Hire more staff?”
+                        <span class="font-semibold">Employee:</span> “Or white-label NovaStack AI for them.”
+                        <span class="font-semibold">Overlay:</span> Agencies scale smarter with NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 46 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 46 – Café Friends (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Tere café ka Insta mast lag raha hai.”
+                        <span class="font-semibold">Friend B:</span> “Arre NovaStack AI banata hai posts.”
+                        <span class="font-semibold">Friend A:</span> “Aur SEO?”
+                        <span class="font-semibold">Friend B:</span> “Auto optimize ho jata hai.”
+                        <span class="font-semibold">Overlay:</span> Chhota café, bada reach.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 47 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 47 – Mother & Son (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Mother:</span> “Beta, tumhara business Google pe kyun nahi milta?”
+                        <span class="font-semibold">Son:</span> “Maa, SEO tough hai.”
+                        <span class="font-semibold">Mother:</span> “Toh NovaStack AI use karo!”
+                        <span class="font-semibold">Overlay:</span> Even moms know now: SEO is easy with AI.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 48 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 48 – Founders on Call (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Founder A:</span> “We need to scale abroad.”
+                        <span class="font-semibold">Founder B:</span> “But global SEO is tough.”
+                        <span class="font-semibold">Founder C:</span> “NovaStack AI does multilingual SEO.”
+                        <span class="font-semibold">Overlay:</span> Go global. Go Nova.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 49 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 49 – Shopkeeper & Customer (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Customer:</span> “Online nahi ho toh main competitor se loonga.”
+                        <span class="font-semibold">Shopkeeper:</span> “But website?”
+                        <span class="font-semibold">Customer:</span> “NovaStack AI use karo, tabhi mai dikh paunga.”
+                        <span class="font-semibold">Overlay:</span> Customer loyalty = Online presence.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 50 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 50 – Friends at Co-Working (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “I manage 5 tools for marketing.”
+                        <span class="font-semibold">Friend B:</span> “I replaced all with NovaStack AI.”
+                        <span class="font-semibold">Friend A:</span> “One app for all?”
+                        <span class="font-semibold">Friend B:</span> “Yep, cheaper too.”
+                        <span class="font-semibold">Overlay:</span> One tool. All growth.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 51 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 51 – Boss & Accountant (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Boss:</span> “Kitna paisa jaa raha hai marketing pe?”
+                        <span class="font-semibold">Accountant:</span> “Sir, 50 hazaar agency ko.”
+                        <span class="font-semibold">Boss:</span> “😱”
+                        <span class="font-semibold">Accountant:</span> “NovaStack AI hota toh ₹299/month me sab hota.”
+                        <span class="font-semibold">Overlay:</span> Cut cost, not growth.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 52 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 52 – Startup Friends (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Founder A:</span> “Marketing burn is killing us.”
+                        <span class="font-semibold">Founder B:</span> “NovaStack AI cut our budget by 90%.”
+                        <span class="font-semibold">Overlay:</span> Growth without burn.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 53 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 53 – Family Discussion (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Father:</span> “Beta dukaan theek chal rahi hai?”
+                        <span class="font-semibold">Son:</span> “Offline theek hai, online kuch nahi.”
+                        <span class="font-semibold">Father:</span> “NovaStack AI kar dega sab?”
+                        <span class="font-semibold">Son:</span> “Haan, Papa.”
+                        <span class="font-semibold">Overlay:</span> Offline to Online in one step.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 54 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 54 – College Friends (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “I made a blog, zero views.”
+                        <span class="font-semibold">Friend B:</span> “I used NovaStack AI — SEO + LinkedIn auto posts. Now 10k views.”
+                        <span class="font-semibold">Overlay:</span> Stop shouting. Start growing.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 55 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 55 – Startup & Investor (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Investor:</span> “I searched you. No results.”
+                        <span class="font-semibold">Founder:</span> “NovaStack AI site launch today.”
+                        <span class="font-semibold">Investor:</span> “Smart move.”
+                        <span class="font-semibold">Overlay:</span> Investors trust online presence.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 56 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 56 – Freelancer Friends (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Freelancer A:</span> “I spend on Buffer, Wix, SEMrush.”
+                        <span class="font-semibold">Freelancer B:</span> “I use NovaStack AI instead.”
+                        <span class="font-semibold">Overlay:</span> Replace 5 tools with 1.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 57 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 57 – Agency Pitch (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Client:</span> “Package ₹50,000/month?!”
+                        <span class="font-semibold">Agency:</span> “Or we use NovaStack AI and cut cost.”
+                        <span class="font-semibold">Overlay:</span> Agencies also love Nova.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 58 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 58 – Teen Creators (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Creator A:</span> “I can’t think of daily posts.”
+                        <span class="font-semibold">Creator B:</span> “NovaStack AI generates for me.”
+                        <span class="font-semibold">Overlay:</span> Consistency = followers.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 59 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 59 – Friends at Metro (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Mera blog zero traffic.”
+                        <span class="font-semibold">Friend B:</span> “NovaStack AI se SEO + Insta shares, traffic 10x.”
+                        <span class="font-semibold">Overlay:</span> Traffic = Business.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 60 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 60 – Startup Debate (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <pre class="script-text">
+                        <span class="font-semibold">Founder A:</span> “Hire SEO guy?”
+                        <span class="font-semibold">Founder B:</span> “Use NovaStack AI cheaper + faster.”
+                        <span class="font-semibold">Overlay:</span> Hire AI, not agencies.
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 3: Creative Role-Play Scripts -->
+    <div class="px-4 py-8">
+        <h2 class="section-header">30 Creative Role-Play Scripts</h2>
+        <div id="creative-role-play-scripts" class="space-y-4">
+            <!-- Script 61 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 61 – Family Dinner (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Family Dinner</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Dad:</span> “Beta, dukaan chal rahi hai par sales kam ho gayi.”
+                        <span class="font-semibold">Son:</span> “Papa, log pehle Google karte hain. Hum online hi nahi dikhte.”
+                        <span class="font-semibold">Daughter:</span> “NovaStack AI se site + SEO + Insta handle sab free start hota hai.”
+                        <span class="font-semibold">Dad (smiles):</span> “Kal se hum bhi digital dukaan banayenge.”
+                        <span class="font-semibold">Overlay:</span> Offline dukaan → Online brand with NovaStack AI.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 62 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 62 – Café Pitch (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Café Pitch</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Your café is great, but nobody outside this street knows about it.”
+                        <span class="font-semibold">Owner:</span> “Marketing is too expensive.”
+                        <span class="font-semibold">Friend B:</span> “Use NovaStack AI. It’ll build you a site, optimize SEO, and post on Insta for you.”
+                        <span class="font-semibold">Owner:</span> “All that without hiring anyone?”
+                        <span class="font-semibold">Overlay:</span> Small café. Big digital reach.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 63 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 63 – Students Startup Idea (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Students Startup Idea</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Student A:</span> “Bro hamara startup idea ready hai, website kaun banayega?”
+                        <span class="font-semibold">Student B:</span> “NovaStack AI se 1 click me landing page ready.”
+                        <span class="font-semibold">Student C:</span> “Aur SEO + LinkedIn bhi?”
+                        <span class="font-semibold">Student B:</span> “Automatic!”
+                        <span class="font-semibold">Overlay:</span> College startup? NovaStack = first team member.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 64 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 64 – Freelancer Family (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Freelancer Family</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Mom:</span> “Son, why don’t you get clients?”
+                        <span class="font-semibold">Freelancer:</span> “I post my work but no one sees it.”
+                        <span class="font-semibold">Sister:</span> “Because you need SEO. Try NovaStack AI.”
+                        <span class="font-semibold">Mom:</span> “Even I know SEO matters now.”
+                        <span class="font-semibold">Overlay:</span> Even family knows: Visibility = business.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 65 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 65 – Investor Meeting (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Investor Meeting</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Investor:</span> “I searched your startup but found nothing.”
+                        <span class="font-semibold">Founder:</span> “Sir, we just launched with NovaStack AI — site + blog + SEO overnight.”
+                        <span class="font-semibold">Investor:</span> “Impressive speed.”
+                        <span class="font-semibold">Overlay:</span> Investors trust companies that exist online.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 66 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 66 – Shopkeeper & Customer (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Shopkeeper & Customer</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Customer:</span> “Do you have a website? I don’t carry cash.”
+                        <span class="font-semibold">Shopkeeper:</span> “No… but I’ll make one.”
+                        <span class="font-semibold">Friend whispers:</span> “NovaStack AI can set it up today.”
+                        <span class="font-semibold">Next scene:</span> Customer buying online.
+                        <span class="font-semibold">Overlay:</span> From offline to online in a day.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 67 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 67 – School Friends (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: School Friends</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Mainne blog likha, par views 10 hi aaye.”
+                        <span class="font-semibold">Friend B:</span> “Mera blog 5,000 views. NovaStack AI SEO karta hai.”
+                        <span class="font-semibold">Friend A:</span> “Wow, mujhe bhi sikha!”
+                        <span class="font-semibold">Overlay:</span> SEO = reach. AI = easy SEO.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 68 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 68 – Couple Running Business (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Couple Running Business</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Husband:</span> “We need more customers.”
+                        <span class="font-semibold">Wife:</span> “But ads are costly.”
+                        <span class="font-semibold">Husband:</span> “Try NovaStack AI. SEO + socials = free growth.”
+                        <span class="font-semibold">Wife:</span> “That’s cheaper than dinner!”
+                        <span class="font-semibold">Overlay:</span> Affordable growth for couples in business.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 69 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 69 – Freelancer Meetup (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Freelancer Meetup</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Freelancer A:</span> “Client ne bola portfolio site dikhao.”
+                        <span class="font-semibold">Freelancer B:</span> “Maine NovaStack AI use kiya, site + SEO free.”
+                        <span class="font-semibold">Freelancer A:</span> “Ab toh mujhe bhi try karna padega.”
+                        <span class="font-semibold">Overlay:</span> Freelancers close more deals with NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 70 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 70 – Friends in Metro (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Friends in Metro</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Why do your posts get so many likes?”
+                        <span class="font-semibold">Friend B:</span> “NovaStack AI auto-posts daily.”
+                        <span class="font-semibold">Friend A:</span> “No wonder you’re consistent.”
+                        <span class="font-semibold">Overlay:</span> Consistency = followers. NovaStack = consistency.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 71 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 71 – Father & Son (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Father & Son</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Father:</span> “Beta, apne startup ka naam Google pe kyun nahi aata?”
+                        <span class="font-semibold">Son:</span> “Papa, SEO samajhna tough hai.”
+                        <span class="font-semibold">Friend:</span> “NovaStack AI se easy hai.”
+                        <span class="font-semibold">Overlay:</span> Har father ke sawaal ka jawab: NovaStack AI.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 72 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 72 – Startup Accelerator (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Startup Accelerator</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Mentor:</span> “First step for any startup: website + SEO.”
+                        <span class="font-semibold">Founder:</span> “But we don’t have time.”
+                        <span class="font-semibold">Mentor:</span> “NovaStack AI does it overnight.”
+                        <span class="font-semibold">Overlay:</span> Accelerate your growth with NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 73 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 73 – Two Sisters (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Two Sisters</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Sister A:</span> “Apna boutique Insta pe kyun nahi promote karti?”
+                        <span class="font-semibold">Sister B:</span> “Samay hi nahi hai.”
+                        <span class="font-semibold">Sister A:</span> “NovaStack AI auto posts karega, tu design pe focus kar.”
+                        <span class="font-semibold">Overlay:</span> Focus passion pe. Growth AI pe.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 74 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 74 – SMB Owner & Accountant (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: SMB Owner & Accountant</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Owner:</span> “Marketing is eating our profits.”
+                        <span class="font-semibold">Accountant:</span> “Agencies are costly.”
+                        <span class="font-semibold">Owner:</span> “Then how?”
+                        <span class="font-semibold">Accountant:</span> “NovaStack AI costs less than coffee.”
+                        <span class="font-semibold">Overlay:</span> Cut costs, not customers.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 75 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 75 – School Teacher & Student (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: School Teacher & Student</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Teacher:</span> “Tumhara project blog views zero hai?”
+                        <span class="font-semibold">Student:</span> “Yes ma’am.”
+                        <span class="font-semibold">Teacher:</span> “Use NovaStack AI for SEO.”
+                        <span class="font-semibold">Student:</span> “Next time 1,000 views!”
+                        <span class="font-semibold">Overlay:</span> Even students grow faster with AI.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 76 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 76 – Gym Owner (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Gym Owner</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Trainer:</span> “Members aren’t increasing.”
+                        <span class="font-semibold">Friend:</span> “People search gyms on Google first.”
+                        <span class="font-semibold">Trainer:</span> “But I’m not listed.”
+                        <span class="font-semibold">Friend:</span> “NovaStack AI will fix that.”
+                        <span class="font-semibold">Overlay:</span> From empty gyms to packed halls.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 77 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 77 – Festival Shop (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Festival Shop</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Shopkeeper:</span> “Diwali par sales kam hain.”
+                        <span class="font-semibold">Friend:</span> “Kyuki tera shop online nahi hai.”
+                        <span class="font-semibold">Shopkeeper:</span> “Kaise karu?”
+                        <span class="font-semibold">Friend:</span> “NovaStack AI se.”
+                        <span class="font-semibold">Overlay:</span> Festivals + NovaStack = More customers.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 78 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 78 – Investor Q&A (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Investor Q&A</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Investor:</span> “How do you get traffic?”
+                        <span class="font-semibold">Founder:</span> “NovaStack AI blogs + SEO + social automation.”
+                        <span class="font-semibold">Investor:</span> “Impressive growth hack.”
+                        <span class="font-semibold">Overlay:</span> Smart founders use AI for growth.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 79 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 79 – Blogger Friends (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Blogger Friends</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Blogger A:</span> “Blog likhta hoon par reach nahi.”
+                        <span class="font-semibold">Blogger B:</span> “NovaStack AI SEO optimize + share karta hai.”
+                        <span class="font-semibold">Overlay:</span> From hobby to career: NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 80 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 80 – Agency Client Call (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Agency Client Call</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Client:</span> “Why are you charging so much?”
+                        <span class="font-semibold">Agency:</span> “We do SEO, posts, blogs…”
+                        <span class="font-semibold">Client:</span> “NovaStack AI does that cheaper.”
+                        <span class="font-semibold">Overlay:</span> Clients know the smarter option.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 81 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 81 – Wedding Planner (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Wedding Planner</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Planner:</span> “Mujhe bookings chahiye.”
+                        <span class="font-semibold">Friend:</span> “NovaStack AI tujhko page 1 Google pe le jayega.”
+                        <span class="font-semibold">Overlay:</span> Shaadi ka business bhi AI se grow karo.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 82 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 82 – Freelancer Student (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Freelancer Student</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Student:</span> “Hard to balance classes + marketing.”
+                        <span class="font-semibold">Friend:</span> “Let NovaStack AI handle marketing.”
+                        <span class="font-semibold">Overlay:</span> Students hustle smarter with AI.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 83 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 83 – NGO & Volunteer (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: NGO & Volunteer</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Volunteer:</span> “Awareness kam hai.”
+                        <span class="font-semibold">NGO Head:</span> “NovaStack AI SEO + Insta posts karega.”
+                        <span class="font-semibold">Overlay:</span> Even causes grow with NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 84 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 84 – E-commerce Friends (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: E-commerce Friends</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Seller A:</span> “My Shopify site is dead.”
+                        <span class="font-semibold">Seller B:</span> “I plugged NovaStack AI. Now my SEO + Insta works.”
+                        <span class="font-semibold">Overlay:</span> Turn dead stores into live growth.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 85 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 85 – Tea Stall Owner (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Tea Stall Owner</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Owner:</span> “Meri chai famous hai, par Insta pe zero.”
+                        <span class="font-semibold">Student:</span> “NovaStack AI insta posts banayega.”
+                        <span class="font-semibold">Overlay:</span> Local heroes deserve online fame.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 86 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 86 – Co-Founders (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Co-Founders</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Founder A:</span> “Should we hire a marketer?”
+                        <span class="font-semibold">Founder B:</span> “No, NovaStack AI is cheaper + faster.”
+                        <span class="font-semibold">Overlay:</span> Hire AI, not humans (at first).
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 87 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 87 – Friends Shopping (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Friends Shopping</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Friend A:</span> “Main Google pe shop search karta hoon.”
+                        <span class="font-semibold">Friend B:</span> “Aur jo shop dikh jaaye wahi se kharidta hoon.”
+                        <span class="font-semibold">Overlay:</span> If you’re not online, you don’t exist.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 88 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 88 – Fashion Blogger (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Fashion Blogger</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Blogger:</span> “I waste hours on SEO.”
+                        <span class="font-semibold">Friend:</span> “NovaStack AI does it in seconds.”
+                        <span class="font-semibold">Overlay:</span> Time saved = More content.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 89 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 89 – Father & Daughter Shop (Hinglish)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Father & Daughter Shop</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Father:</span> “Hamare zamane me board hi sab tha.”
+                        <span class="font-semibold">Daughter:</span> “Ab board nahi, website sab hai. NovaStack AI banayega.”
+                        <span class="font-semibold">Overlay:</span> Old school → New school with NovaStack.
+                    </pre>
+                </div>
+            </div>
+            <!-- Script 90 -->
+            <div class="rounded-lg overflow-hidden">
+                <button class="accordion-button rounded-t-lg" onclick="toggleScript(this)">
+                    <span>Script 90 – Office Scene (English)</span>
+                    <i class="fas fa-chevron-down text-gray-500 transition-transform duration-300"></i>
+                </button>
+                <div class="accordion-content">
+                    <p class="font-semibold">Scene: Office Scene</p>
+                    <pre class="script-text">
+                        <span class="font-semibold">Boss:</span> “Marketing team too costly.”
+                        <span class="font-semibold">Employee:</span> “NovaStack AI = 1 app, full team.”
+                        <span class="font-semibold">Overlay:</span> Scale without headcount.
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: 17 Social Media Posts -->
+    <div class="px-4 py-8">
+        <h2 class="section-header">17 Social Media Posts</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Post 1 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Agency vs NovaStack (LinkedIn/Insta)</p>
+                    <p class="text-gray-600 text-sm mt-1">🚀 Stop wasting ₹50,000/month on agencies. With NovaStack AI, you can: ✅ Publish blogs safely (AI moderation)...</p>
+                </div>
+            </div>
+            <!-- Post 2 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Blogging Made Easy (Instagram Reel)</p>
+                    <p class="text-gray-600 text-sm mt-1">“Blogging + SEO + Social = headache? 🤯 NovaStack AI does it all → for just ₹299/month...</p>
+                </div>
+            </div>
+            <!-- Post 3 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Consistency Wins (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">📌 In marketing, consistency > creativity. But who has time to post daily? 👉 NovaStack AI generates & schedules posts automatically...</p>
+                </div>
+            </div>
+            <!-- Post 4 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Global Growth (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">🌍 Want global reach without a global team? NovaStack AI handles multilingual SEO + auto posts worldwide...</p>
+                </div>
+            </div>
+            <!-- Post 5 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">First Impression (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">💼 Investors & clients Google you first. No website = No trust. NovaStack AI → 1-click landing page...</p>
+                </div>
+            </div>
+            <!-- Post 6 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Café Owner Story (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">☕ Small café, big dreams? NovaStack AI builds your website + SEO + Insta posts...</p>
+                </div>
+            </div>
+            <!-- Post 7 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Replace 5 Tools (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">❌ Wix ❌ Buffer ❌ SEMrush ❌ WordPress plugins ❌ Expensive agencies ✅ NovaStack AI = All in one...</p>
+                </div>
+            </div>
+            <!-- Post 8 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">SEO Audit (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">📊 Your traffic is low because your SEO is weak. NovaStack AI → instant audit + auto fixes...</p>
+                </div>
+            </div>
+            <!-- Post 9 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Freelancers (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">👩‍💻 Freelancers lose deals without a portfolio site. NovaStack AI: ✅ Instant site ✅ SEO visibility...</p>
+                </div>
+            </div>
+            <!-- Post 10 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Agency Alternative (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">Agency charges ₹50,000/month. NovaStack AI = ₹299/month. 💡 Why pay more?</p>
+                </div>
+            </div>
+            <!-- Post 11 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Page 1 Dream (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">99% of people never click page 2 of Google. Where is your business? 👉 NovaStack AI pushes you to Page 1...</p>
+                </div>
+            </div>
+            <!-- Post 12 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Creator Growth (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">🎥 Creators: Don’t just make content. Grow it. NovaStack AI: ✅ SEO blogs ✅ Social posts...</p>
+                </div>
+            </div>
+            <!-- Post 13 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Affordable Marketing (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">❌ Marketing is not expensive. ✅ Outdated tools & agencies are. NovaStack AI = Affordable growth stack...</p>
+                </div>
+            </div>
+            <!-- Post 14 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Student Hustle (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">📚 Students freelancing? NovaStack AI = Free portfolio site + SEO boost...</p>
+                </div>
+            </div>
+            <!-- Post 15 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-linkedin text-2xl text-blue-700"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Social Proof (LinkedIn)</p>
+                    <p class="text-gray-600 text-sm mt-1">💡 A local shop used NovaStack AI: Built site in 1 day Got 5k Google visits in 2 months...</p>
+                </div>
+            </div>
+            <!-- Post 16 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-brands fa-instagram text-2xl text-pink-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">Time Saver (Instagram)</p>
+                    <p class="text-gray-600 text-sm mt-1">⏳ You waste hours thinking about posts. NovaStack AI does it in seconds...</p>
+                </div>
+            </div>
+            <!-- Post 17 -->
+            <div class="social-post-card flex items-start space-x-4">
+                <i class="fa-solid fa-fire text-2xl text-red-500"></i>
+                <div>
+                    <p class="font-semibold text-gray-800">CTA Blast (Both)</p>
+                    <p class="text-gray-600 text-sm mt-1">🔥 Stop wasting money on agencies. 🔥 Stop wasting time on 5 different tools. 🔥 Start growing smarter...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 5: Instagram Image Posts (4 Designs) -->
+    <div class="px-4 py-8">
+        <h2 class="section-header">4 Instagram Image Concepts</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <!-- Image 1 -->
+            <div class="image-concept-card">
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Image 1: Before vs After</h3>
+                <div class="p-4 bg-white rounded-lg shadow-sm mb-4">
+                    <p class="font-semibold text-gray-700">Caption:</p>
+                    <pre class="whitespace-pre-wrap text-sm text-gray-600 mt-2">
+❌ Before NovaStack:
+No SEO
+No traffic
+No social posts
+✅ After NovaStack:
+Page 1 Google ranking
+More traffic & leads
+Auto social growth
+👉 Transform your business with NovaStack AI.
+                    </pre>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p class="font-semibold text-gray-700">Design:</p>
+                    <p class="text-sm text-gray-600 mt-2">Split-screen with a dull grey side (Before) and a bright, colorful side with a rising graph and rocket icon (After). Text overlays: "Before NovaStack" and "After NovaStack".</p>
+                </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="image-concept-card">
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Image 2: Cost Comparison</h3>
+                <div class="p-4 bg-white rounded-lg shadow-sm mb-4">
+                    <p class="font-semibold text-gray-700">Caption:</p>
+                    <pre class="whitespace-pre-wrap text-sm text-gray-600 mt-2">
+Agencies: ₹50,000/month 😡
+NovaStack AI: ₹299/month 🚀
+💡 Why pay more when AI can do it better?
+                    </pre>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p class="font-semibold text-gray-700">Design:</p>
+                    <p class="text-sm text-gray-600 mt-2">Two stacked boxes. Top box is red and crossed out (❌) for "Agency". Bottom box is neon green and highlighted (✅) for "NovaStack AI". Big bold overlay: "Save 99% Marketing Cost".</p>
+                </div>
+            </div>
+            <!-- Image 3 -->
+            <div class="image-concept-card">
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Image 3: Growth Graph</h3>
+                <div class="p-4 bg-white rounded-lg shadow-sm mb-4">
+                    <p class="font-semibold text-gray-700">Caption:</p>
+                    <pre class="whitespace-pre-wrap text-sm text-gray-600 mt-2">
+Flat traffic for months? 📉
+NovaStack AI = SEO + blogs + socials → 🚀 exponential growth.
+👉 Don’t just survive. Grow.
+                    </pre>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p class="font-semibold text-gray-700">Design:</p>
+                    <p class="text-sm text-gray-600 mt-2">A line graph with a flat grey line and a bright neon upward-curving line. An AI spark icon is placed at the point where the line takes off. Overlay text: "AI Growth Engine".</p>
+                </div>
+            </div>
+            <!-- Image 4 -->
+            <div class="image-concept-card">
+                <h3 class="text-xl font-bold mb-4 text-gray-800">Image 4: SMB Digital Journey</h3>
+                <div class="p-4 bg-white rounded-lg shadow-sm mb-4">
+                    <p class="font-semibold text-gray-700">Caption:</p>
+                    <pre class="whitespace-pre-wrap text-sm text-gray-600 mt-2">
+Your business journey with NovaStack AI:
+📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales
+👉 NovaStack automates it all.
+                    </pre>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p class="font-semibold text-gray-700">Design:</p>
+                    <p class="text-sm text-gray-600 mt-2">Five icons in a row connected by arrows, representing the steps of the digital journey. Bright gradient background. Overlay text: "NovaStack = Full Growth OS".</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleScript(button) {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('i');
+        const isActive = content.style.maxHeight !== '0px';
+
+        if (isActive) {
+            content.style.maxHeight = '0px';
+            content.style.paddingTop = '0';
+            content.style.paddingBottom = '0';
+            icon.classList.remove('rotate-180');
+        } else {
+            content.style.display = 'block';
+            content.style.maxHeight = content.scrollHeight + 'px';
+            content.style.paddingTop = '1rem';
+            content.style.paddingBottom = '1rem';
+            icon.classList.add('rotate-180');
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+{"prompt":"A 2D infographic with a growth chart. On the left, a flat gray line labeled 'Without NovaStack'. On the right, a bright upward curve labeled 'With NovaStack'. At the point of takeoff, an AI spark/boost icon. Overlay text: 'AI Growth Engine'. Background: NovaStack colors (navy, neon teal, purple). Canva-style modern design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing the SMB Digital Journey with NovaStack. Sequence of icons: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with arrows. Bright gradient background using NovaStack brand colors (deep navy with neon teal and purple). Bold overlay text: 'NovaStack = Full Growth OS'. Canva-style infographic, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. On the left, a flat gray line labeled 'Without NovaStack'. On the right, a bright upward curve labeled 'With NovaStack'. At the point of takeoff, an AI spark/boost icon. Overlay text: 'AI Growth Engine'. Background: NovaStack colors (navy, neon teal, purple). Canva-style modern design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing the SMB Digital Journey with NovaStack. Sequence of icons: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with arrows. Bright gradient background using NovaStack brand colors (deep navy with neon teal and purple). Bold overlay text: 'NovaStack = Full Growth OS'. Canva-style infographic, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. Left: flat gray line labeled 'Without NovaStack'. Right: bright upward curve labeled 'With NovaStack'. At the takeoff point, a glowing AI spark icon. Overlay text: 'AI Growth Engine'. Background in NovaStack brand colors (navy, neon teal, purple). Canva-style Instagram-ready design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing the SMB Digital Journey with NovaStack. Sequence of icons: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with arrows. Bright gradient background using NovaStack brand colors (deep navy with neon teal and purple). Bold overlay text: 'NovaStack = Full Growth OS'. Canva-style infographic, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing a growth graph with two lines. On the left side, a flat gray line labeled 'Without NovaStack'. On the right side, a bright neon upward curve labeled 'With NovaStack'. At the inflection point, an AI spark/boost icon is added. Bold overlay text in the center: 'AI Growth Engine'. The background uses NovaStack brand colors (navy with neon teal and purple). Modern Canva-style suitable for Instagram.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing the SMB Digital Journey with NovaStack. Icons in order: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with neon arrows. Background is a gradient in NovaStack colors (deep navy, neon teal, purple). Overlay text: 'NovaStack = Full Growth OS'. Canva-style Instagram post design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. Left side shows a flat gray line labeled 'Without NovaStack'. Right side shows a bright neon upward curve labeled 'With NovaStack'. At the takeoff point, a glowing AI spark icon indicates growth boost. Bold overlay text: 'AI Growth Engine'. Background in NovaStack colors (navy, neon teal, purple). Canva-style modern design, Instagram ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in order: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with neon arrows. Bright gradient background in NovaStack brand colors (deep navy, neon teal, purple). Bold overlay: 'NovaStack = Full Growth OS'. Canva-style infographic, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. Left side flat gray line labeled 'Without NovaStack'. Right side bright neon curve rising labeled 'With NovaStack'. At takeoff, a glowing AI spark icon. Bold overlay text: 'AI Growth Engine'. Background in NovaStack brand colors (navy, neon teal, purple). Canva-style design, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Neon arrows connect each step. Bright gradient background using NovaStack brand palette (deep navy, neon teal, neon purple). Overlay text: 'NovaStack = Full Growth OS'. Canva-style design, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing a growth chart. Left: flat gray line labeled 'Without NovaStack'. Right: neon upward curve labeled 'With NovaStack'. At the curve start, an AI spark/boost icon glows. Overlay text: 'AI Growth Engine'. Background in NovaStack brand colors (deep navy, neon teal, purple). Canva-style Instagram post design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows between steps. Bright gradient background in NovaStack brand palette (deep navy with neon teal and purple). Bold overlay: 'NovaStack = Full Growth OS'. Canva-style infographic, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth graph. Left side: flat gray line labeled 'Without NovaStack'. Right side: bright neon upward curve labeled 'With NovaStack'. At the takeoff point, a glowing AI spark/boost icon. Bold overlay text: 'AI Growth Engine'. Background in NovaStack colors (deep navy with neon teal/purple). Canva-style Instagram post design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in order: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with glowing arrows. Background gradient with NovaStack brand palette (deep navy, neon teal, neon purple). Bold overlay: 'NovaStack = Full Growth OS'. Canva-style Instagram-ready infographic.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. Left side flat gray line labeled 'Without NovaStack'. Right side bright neon upward curve labeled 'With NovaStack'. At the takeoff, an AI spark/boost icon glows. Bold overlay text: 'AI Growth Engine'. Background uses NovaStack brand palette (navy, neon teal, purple). Canva-style Instagram-ready infographic.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows connect each step. Background is a gradient using NovaStack brand colors (deep navy, neon teal, neon purple). Bold overlay text: 'NovaStack = Full Growth OS'. Canva-style, Instagram-ready infographic.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. On the left side, a flat gray line labeled 'Without NovaStack'. On the right side, a bright neon upward curve labeled 'With NovaStack'. At the inflection point, an AI spark/boost icon is added. Bold overlay text in the center: 'AI Growth Engine'. The background uses NovaStack brand colors (navy with neon teal and purple). Modern Canva-style suitable for Instagram.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic comparing agency cost vs NovaStack cost. Top section shows 'Agency: ₹50,000/month' with a red cross and angry emoji. Bottom section shows 'NovaStack AI: ₹299/month' with bright neon colors and rocket emoji. Bold overlay: 'Save 99% Marketing Cost'. Background dark navy with modern style.","size":"1024x1024","n":1,"referenced_image_ids":[]}
+
+{"prompt":"A 2D infographic showing a growth graph. Left side line is flat and gray labeled 'Without NovaStack'. Right side bright upward curve labeled 'With NovaStack'. An AI spark/boost icon at the point of takeoff. Bold overlay text: 'AI Growth Engine'. Background in NovaStack colors (navy, neon accents).","size":"1024x1024","n":1,"referenced_image_ids":[]}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows between steps. Bright gradient background with NovaStack colors (navy + neon teal/purple). Overlay text: 'NovaStack = Full Growth OS'.","size":"1024x1024","n":1,"referenced_image_ids":[]}
+
+{"prompt":"A 2D infographic comparing agency cost vs NovaStack cost. Top section shows 'Agency: ₹50,000/month' with a red cross and angry emoji. Bottom section shows 'NovaStack AI: ₹299/month' with bright neon colors and rocket emoji. Bold overlay: 'Save 99% Marketing Cost'. Background dark navy with modern style.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing a growth graph. Left side line is flat and gray labeled 'Without NovaStack'. Right side bright upward curve labeled 'With NovaStack'. An AI spark/boost icon at the point of takeoff. Bold overlay text: 'AI Growth Engine'. Background in NovaStack colors (navy, neon accents).","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows between steps. Bright gradient background with NovaStack colors (navy + neon teal/purple). Overlay text: 'NovaStack = Full Growth OS'.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic contrasting agency cost vs NovaStack cost. Top section: 'Agency ₹50,000/month' with red cross and 😡 emoji. Bottom: 'NovaStack AI ₹299/month' with bright neon green, rocket 🚀. Bold overlay: 'Save 99% Marketing Cost'. Modern Canva-style design, navy background with neon accents.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic with a growth chart. On the left, a flat gray line labeled 'Without NovaStack'. On the right, a bright upward curve labeled 'With NovaStack'. At the point of takeoff, an AI spark/boost icon. Overlay text: 'AI Growth Engine'. Background in NovaStack brand colors (navy, neon teal, purple). Canva-style modern design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing the SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows between steps. Bright gradient background with NovaStack brand colors (navy with neon teal/purple). Overlay text: 'NovaStack = Full Growth OS'. Canva-style modern infographic.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic contrasting agency cost vs NovaStack cost. Top half: 'Agency: ₹50,000/month' with red cross ❌ and angry emoji 😡. Bottom half: 'NovaStack AI: ₹299/month' with neon green highlight ✅ and rocket 🚀. Bold overlay text: 'Save 99% Marketing Cost'. Dark navy background with modern Canva-style neon design.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing a growth graph. Left side: flat gray line labeled 'Without NovaStack'. Right side: bright neon upward curve labeled 'With NovaStack'. At the takeoff point, a glowing AI spark icon. Bold overlay text: 'AI Growth Engine'. Background: NovaStack colors (navy, neon teal, purple). Canva-style modern social media post.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing the SMB Digital Journey with NovaStack. Sequence of icons: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Each step connected with arrows. Bright gradient background using NovaStack brand colors (deep navy with neon teal and purple). Bold overlay text: 'NovaStack = Full Growth OS'. Canva-style infographic, Instagram-ready.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic comparing agency cost vs NovaStack cost. Top section shows 'Agency: ₹50,000/month' with a red cross and angry emoji. Bottom section shows 'NovaStack AI: ₹299/month' with bright neon colors and rocket emoji. Bold overlay: 'Save 99% Marketing Cost'. Background dark navy with modern style.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing a growth graph. Left side line is flat and gray labeled 'Without NovaStack'. Right side bright upward curve labeled 'With NovaStack'. An AI spark/boost icon at the point of takeoff. Bold overlay text: 'AI Growth Engine'. Background in NovaStack colors (navy, neon accents).","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows between steps. Bright gradient background with NovaStack colors (navy + neon teal/purple). Overlay text: 'NovaStack = Full Growth OS'.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic contrasting agency cost vs NovaStack cost. Top section shows 'Agency: ₹50,000/month' with a red cross and angry emoji. Bottom section shows 'NovaStack AI: ₹299/month' with bright neon colors and rocket emoji. Bold overlay: 'Save 99% Marketing Cost'. Background dark navy with modern style.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing a growth graph. Left side line is flat and gray labeled 'Without NovaStack'. Right side bright upward curve labeled 'With NovaStack'. An AI spark/boost icon at the point of takeoff. Bold overlay text: 'AI Growth Engine'. Background in NovaStack colors (navy, neon accents).","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic showing SMB Digital Journey with NovaStack. Icons in sequence: 📝 Blog → 🌐 Website → 🔎 SEO → 📱 Social Media → 💰 Sales. Arrows between steps. Bright gradient background with NovaStack colors (navy + neon teal/purple). Overlay text: 'NovaStack = Full Growth OS'.","size":"1024x1024","n":1}
+
+{"prompt":"A 2D infographic comparing agency cost vs NovaStack cost. Top half: 'Agency: ₹50,000/month' with red cross ❌ and angry emoji 😡. Bottom half: 'NovaStack AI: ₹299/month' with neon green highlight ✅ and rocket 🚀. Bold overlay text: 'Save 99% Marketing Cost'. Dark navy background with modern Canva-style neon design.","size":"1024x1024","n":1}
