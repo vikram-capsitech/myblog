@@ -23,7 +23,7 @@ import {
 
 export default function Page() {
   return (
-    <div className="relative min-h-screen bg-[#0B0F19] text-zinc-100">
+    <div className="relative min-h-screen">
       <AmbientGlow />
       <SiteNav />
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
