@@ -11,29 +11,56 @@ export default function EditPostPage({ params }: { params: { id: string } }) {
   return (
     <DashboardLayout>
       <div className="grid gap-4 lg:grid-cols-3">
-        <div className="lg:col-span-2 rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6 space-y-3">
-          <input value={title} onChange={(e)=>setTitle(e.target.value)} className="w-full bg-zinc-950 border border-zinc-800 rounded-xl px-3 py-2 text-lg" />
-          <textarea value={content} onChange={(e)=>setContent(e.target.value)} rows={16} className="w-full bg-zinc-950 border border-zinc-800 rounded-xl px-3 py-2 text-sm" />
+        {/* Main editor */}
+        <div className="lg:col-span-2 rounded-2xl border border-border bg-card p-6 space-y-3">
+          <input
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            className="w-full rounded-xl border border-border bg-background px-3 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-primary"
+          />
+          <textarea
+            value={content}
+            onChange={(e) => setContent(e.target.value)}
+            rows={16}
+            className="w-full rounded-xl border border-border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+          />
           <div className="flex gap-2">
-            <button className="rounded-xl border border-zinc-800 px-3 py-1.5 text-sm flex items-center gap-1"><Save className="h-4 w-4"/> Save</button>
-            <button className="rounded-xl bg-gradient-to-r from-indigo-500 to-fuchsia-500 px-3 py-1.5 text-sm font-semibold flex items-center gap-1"><Upload className="h-4 w-4"/> Publish</button>
+            <button className="inline-flex items-center gap-1 rounded-xl border border-border bg-muted px-3 py-1.5 text-sm hover:bg-muted/80">
+              <Save className="h-4 w-4" /> Save
+            </button>
+            <button className="inline-flex items-center gap-1 rounded-xl bg-primary px-3 py-1.5 text-sm font-semibold text-primary-foreground hover:opacity-90">
+              <Upload className="h-4 w-4" /> Publish
+            </button>
           </div>
         </div>
-        <aside className="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-6 space-y-4">
+
+        {/* Sidebar */}
+        <aside className="rounded-2xl border border-border bg-card p-6 space-y-4">
           <div>
             <div className="text-sm font-semibold">Metadata</div>
-            <div className="mt-2 text-sm text-zinc-400 flex items-center gap-2"><Calendar className="h-4 w-4"/> Scheduled: not set</div>
-            <div className="mt-2 text-sm text-zinc-400 flex items-center gap-2"><Tag className="h-4 w-4"/> Tags: <span className="text-zinc-300">ai, edge</span></div>
+            <div className="mt-2 flex items-center gap-2 text-sm text-muted-foreground">
+              <Calendar className="h-4 w-4" /> Scheduled: not set
+            </div>
+            <div className="mt-2 flex items-center gap-2 text-sm text-muted-foreground">
+              <Tag className="h-4 w-4" /> Tags:{" "}
+              <span className="text-foreground">ai, edge</span>
+            </div>
           </div>
+
           <div>
             <div className="text-sm font-semibold">Cover</div>
-            <div className="mt-2 h-28 rounded-xl bg-zinc-800" />
+            <div className="mt-2 h-28 rounded-xl bg-muted" />
           </div>
+
           <div>
             <div className="text-sm font-semibold">Visibility</div>
             <div className="mt-2 flex items-center gap-2">
-              <button className="rounded-xl border border-zinc-800 px-3 py-1.5 text-sm">Public</button>
-              <button className="rounded-xl border border-zinc-800 px-3 py-1.5 text-sm">Private</button>
+              <button className="rounded-xl border border-border bg-muted px-3 py-1.5 text-sm hover:bg-muted/80">
+                Public
+              </button>
+              <button className="rounded-xl border border-border bg-muted px-3 py-1.5 text-sm hover:bg-muted/80">
+                Private
+              </button>
             </div>
           </div>
         </aside>

@@ -6,7 +6,7 @@ export function MiniBar({ values }: { values: number[] }) {
       {values.map((v, i) => (
         <div
           key={i}
-          className="w-1.5 rounded-t bg-gradient-to-t from-fuchsia-500/70 to-indigo-500/70"
+          className="w-1.5 rounded-t bg-gradient-to-t from-primary/70 to-secondary/70"
           style={{ height: `${(v / max) * 100}%` }}
           aria-hidden
         />
