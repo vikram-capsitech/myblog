@@ -46,10 +46,10 @@ export default function DashboardLayout({
           >
             New post
           </Link>
-          <button className="rounded-xl border border-border bg-muted px-3 py-1.5 text-sm hover:bg-muted/80 flex items-center gap-1">
+          <div className="rounded-xl border border-border bg-muted px-3 py-1.5 text-sm hover:bg-muted/80 flex items-center gap-1">
             {/* <LogOut className="h-4 w-4" /> Logout */}
             <SignOutButton />
-          </button>
+          </div>
         </div>
       </header>
 
